@@ -3,8 +3,10 @@ package com.java.datastructure.linkedlist;
 import com.java.datastructure.linkedlist.LinkedList.Node;
 
 public class LinkedListInsertion {
+	
 
 	public static LinkedList insert(LinkedList list, int data) {
+		
 		Node newNode = new Node(data);
 		newNode.next = null;
 		if (list.head == null) {
